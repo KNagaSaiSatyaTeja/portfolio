@@ -9,7 +9,10 @@ import {
 
 export default function ContactMe() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-700 to-gray-900 px-6 py-12">
+    <div
+      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-700 to-gray-900 px-6 py-12"
+      id="contact"
+    >
       <h1 className="text-5xl font-extrabold text-gray-100 mb-8">Contact Me</h1>
       <div className="bg-white shadow-2xl rounded-2xl p-10 max-w-3xl w-full text-center">
         <p className="text-lg text-gray-600 mb-6">

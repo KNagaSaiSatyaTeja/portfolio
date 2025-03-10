@@ -22,7 +22,7 @@ const projects = [
 export default function Projects() {
   return (
     <div
-      className="min-h-screen bg-gray-900 text-white py-12 px-6 md:px-20"
+      className="min-h-screen bg-gray-900 text-white py-17 px-6 md:px-20"
       id="projects"
     >
       <h1 className="text-4xl font-bold text-center mb-12">My Projects</h1>
