@@ -6,14 +6,14 @@ const projects = [
     title: "Quiz Website",
     description:
       "An interactive quiz website that offers engaging quizzes, instant feedback, and progress tracking for a fun learning experience. ",
-    image: "../../../public/assets/quiz.png",
+    image: "/quiz.png",
     github: "https://github.com/KNagaSaiSatyaTeja/quiz-app",
     liveDemo: "https://knagasaisatyateja.github.io/quiz-app/",
   },
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase my skills and projects.",
-    image: "../../../public/assets/portfolio.png",
+    image: "/portfolio.png",
     github: "https://github.com/KNagaSaiSatyaTeja/portfolio",
     liveDemo: "https://knagasaisatyateja.github.io/portfolio/",
   },
