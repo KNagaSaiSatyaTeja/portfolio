@@ -1,0 +1,6 @@
+@import "../../var.css";
+
+
+.hero{
+    background-color: var(--color-dark);
+}
