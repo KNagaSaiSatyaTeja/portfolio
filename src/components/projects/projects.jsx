@@ -14,7 +14,7 @@ const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio to showcase my skills and projects.",
     image: "../../../public/assets/portfolio.png",
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/KNagaSaiSatyaTeja/portfolio",
     liveDemo: "https://yourportfolio.com",
   },
 ];
