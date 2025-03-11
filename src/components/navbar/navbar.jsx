@@ -15,7 +15,7 @@ export default function Navbar() {
   // Track active menu item
 
   return (
-    <Disclosure as="nav" className="bg-gray-800 sticky top-0 border-b-2">
+    <Disclosure as="nav" className="bg-gray-800 sticky z-50 top-0 border-b-2">
       {({ open, close }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

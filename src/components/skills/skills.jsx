@@ -20,7 +20,7 @@ const skills = [
   {
     name: "JavaScript",
     icon: <FaJs className="text-yellow-500" />,
-    level: "90%",
+    level: "80%",
   },
   { name: "React", icon: <FaReact className="text-blue-400" />, level: "95%" },
   {
@@ -30,8 +30,8 @@ const skills = [
   },
   {
     name: "Python",
-    icon: <SiPython className="" />,
-    level: "70%",
+    icon: <SiPython className="text-blue-500 " />,
+    level: "80%",
   },
   {
     name: "Node.js",
@@ -40,7 +40,7 @@ const skills = [
   },
   {
     name: "SQL",
-    icon: <SiMysql className="text-gray-900" />,
+    icon: <SiMysql className="text-gray-100" />,
     level: "65%",
   },
 ];
@@ -48,7 +48,7 @@ const skills = [
 export default function Skills() {
   return (
     <div
-      className="h-screen flex flex-col items-center justify-center   px-6 md:px-20 py-12 md:py-24"
+      className=" h-auto flex flex-col items-center justify-center px-6 md:px-20 py-24"
       id="skils"
     >
       <h1 className="text-4xl md:text-6xl font-bold italic mb-10 text-white">
@@ -58,10 +58,10 @@ export default function Skills() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex flex-col items-center p-4 bg-gray-100 shadow-lg rounded-xl"
+            className="flex flex-col items-center p-4 bg-gray-900 shadow-lg rounded-xl"
           >
             <div className="text-6xl">{skill.icon}</div>
-            <h2 className="text-xl font-bold mt-4">{skill.name}</h2>
+            <h2 className="text-xl font-bold text-white mt-4">{skill.name}</h2>
             <div className="w-full bg-gray-300 rounded-full h-2 mt-2">
               <div
                 className="bg-blue-600 h-2 rounded-full"

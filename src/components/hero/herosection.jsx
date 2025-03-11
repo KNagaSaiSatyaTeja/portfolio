@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import me from "../../../public/assets/me.png";
-import resume from "../../../public/assets/Nagasai_Resume (2).pdf";
+import resume from "../../../public/assets/Naga Sai Resume.pdf";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 import "./herosection.css";
 
@@ -40,17 +40,17 @@ export default function Herosection() {
 
   return (
     <div
-      className="h-screen mt-3 p-6 flex flex-col md:flex-row items-center justify-center overflow-hidden"
+      className="h-screen mt-3  p-8  md:p-18 md:h-auto flex flex-col md:flex-row items-center justify-center overflow-hidden"
       id="home"
     >
-      <div className="w-full md:w-3/6 font-mono text-white text-center md:text-left flex flex-col items-center md:items-start">
-        <h1 className="text-2xl md:text-4xl italic">
-          Hi, I am{" "}
+      <div className="w-full md:w-3/6 font-mono  text-white text-center md:text-left flex flex-col items-center md:items-start">
+        <h1 className="text-2xl md:text-4xl md:mb-4 italic">
+          Hi, I am
           <b>
             <i> K. Naga Sai Satya Teja</i>
           </b>
         </h1>
-        <p className="text-lg md:text-2xl mt-4 p-3 border rounded-lg bg-opacity-10 w-full">
+        <p className="text-lg  md:text-2xl mt-4 p-3 border rounded-lg bg-opacity-10 w-full">
           I am a student passionate about learning and growing into a skilled
           <span className="font-bold"> full-stack developer</span>. I'm eager to
           build dynamic web applications, enhance my coding skills, and stay
@@ -64,19 +64,19 @@ export default function Herosection() {
           <a
             href={resume}
             download
-            className="rounded-full w-full md:w-auto bg-purple-600 px-6 py-3 flex items-center justify-center gap-2"
+            className="rounded-full w-full hover:py-4 hover:px-8 hover:bg-transparent hover:border-2 md:w-auto bg-purple-600 md:mx-auto px-6 py-3 flex items-center justify-center gap-2"
           >
             Resume <ArrowDownTrayIcon className="h-6" />
           </a>
           <a
             href="#contact"
-            className="rounded-full w-full md:w-auto bg-purple-600 px-6 py-3 text-center"
+            className="rounded-full w-full md:w-auto bg-purple-600 md:mx-auto px-6 py-3 text-center hover:py-4 hover:px-8 hover:bg-transparent hover:border-2"
           >
             Contact Me
           </a>
         </div>
       </div>
-      <div className="hidden md:flex md:w-3/6 justify-center items-center">
+      <div className="hidden md:flex md:w-3/6 md:p-6  justify-center md:h-full items-center">
         <img src={me} className="h-auto max-w-full object-contain" alt="Me" />
       </div>
     </div>

@@ -4,16 +4,15 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const projects = [
   {
     title: "Quiz Website",
-    description:
-      "An interactive quiz website that offers engaging quizzes, instant feedback, and progress tracking for a fun learning experience. ",
-    image: "/quiz.png",
+    description: "An interactive quiz website that offers engaging quizzes...",
+    image: "public/assets/quiz.png",
     github: "https://github.com/KNagaSaiSatyaTeja/quiz-app",
     liveDemo: "https://knagasaisatyateja.github.io/quiz-app/",
   },
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase my skills and projects.",
-    image: "/portfolio.png",
+    image: "public/assets/portfolio.png",
     github: "https://github.com/KNagaSaiSatyaTeja/portfolio",
     liveDemo: "https://knagasaisatyateja.github.io/portfolio/",
   },
@@ -22,7 +21,7 @@ const projects = [
 export default function Projects() {
   return (
     <div
-      className="min-h-screen bg-gray-900 text-white py-17 px-6 md:px-20"
+      className="min-h-screen bg-gray-800 text-white py-17 px-6 md:px-20"
       id="projects"
     >
       <h1 className="text-4xl font-bold text-center mb-12">My Projects</h1>
@@ -30,7 +29,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
+            className="bg-gray-900 rounded-2xl overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
           >
             <img
               src={project.image}
