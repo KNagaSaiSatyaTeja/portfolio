@@ -1,18 +1,19 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-
+import quiz from "/public/assets/quiz.png";
+import portfolio from "/public/assets/portfolio.png";
 const projects = [
   {
     title: "Quiz Website",
     description: "An interactive quiz website that offers engaging quizzes...",
-    image: "public/assets/quiz.png",
+    image: quiz,
     github: "https://github.com/KNagaSaiSatyaTeja/quiz-app",
     liveDemo: "https://knagasaisatyateja.github.io/quiz-app/",
   },
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase my skills and projects.",
-    image: "public/assets/portfolio.png",
+    image: portfolio,
     github: "https://github.com/KNagaSaiSatyaTeja/portfolio",
     liveDemo: "https://knagasaisatyateja.github.io/portfolio/",
   },
